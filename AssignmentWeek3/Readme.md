@@ -1,6 +1,6 @@
 # 📊 AI Job Market & Salary Trends — Data Visualization Project
 
-This project explores and visualizes the **2025 Global AI Job Market and Salary Trends** dataset. Using powerful tools like **Plotly**, **Seaborn**, and **Matplotlib**, it reveals insights into AI-related roles, compensation, skills, and global job distributions.
+This project explores and visualizes the **2025 Global AI Job Market and Salary Trends** dataset. Using powerful tools like **Seaborn**, and **Matplotlib**, it reveals insights into AI-related roles, compensation, skills, and global job distributions.
 
 ---
 
@@ -11,7 +11,7 @@ This project explores and visualizes the **2025 Global AI Job Market and Salary 
 - **Source:** Kaggle (AI Job Dataset)  \
 - **Theme:** Global AI jobs, salaries, skills, and employment trends
 
-### 📌 Key Columns:
+### 📌 Key Columns
 
 | Column Name            | Description                                        |
 |------------------------|----------------------------------------------------|
@@ -88,6 +88,3 @@ To visually explore:
 - The **US, India, and Germany** dominate AI job postings
 - Majority of jobs are **fully remote (100%)** or **hybrid (50%)**
 - Companies prefer candidates with **Master’s or PhD degrees**
-
----
-
