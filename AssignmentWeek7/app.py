@@ -5,8 +5,8 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-svm_model = joblib.load("./model/tuned_svm_model.pkl")
-rf_model = joblib.load("./model/tuned_rf_model.pkl")
+svm_model = joblib.load(r".\model\tuned_svm_model.pkl")
+rf_model = joblib.load(r".\model\tuned_rf_model.pkl")
 
 st.set_page_config(page_title="📱 Mobile Price Prediction", layout="centered")
 
