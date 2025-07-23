@@ -7,6 +7,7 @@ This project applies machine learning clustering techniques to group customers b
 ## 📁 Dataset
 
 **Columns:**
+
 - `CustomerID`: Unique ID
 - `Gender`: Male/Female (converted to 1/0)
 - `Age`: Customer age
@@ -34,11 +35,13 @@ This project applies machine learning clustering techniques to group customers b
 ## 🧠 Clustering Algorithms
 
 ### KMeans
-- Chosen via Elbow Method (optimal k = 5)
+
+- Chosen via Elbow Method (optimal k = 6)
 - Balanced customer segments
-- **Silhouette Score:** `0.55+` (varies)
+- **Silhouette Score:** `0.4284` (varies)
 
 ### DBSCAN
+
 - Density-based
 - Useful for noise detection
 - Performance depends on `eps` and `min_samples`
@@ -56,8 +59,7 @@ This project applies machine learning clustering techniques to group customers b
 ## 📁 Output Files
 
 - `segmented_customers_kmeans_dbscan.csv` – Full dataset with cluster labels
-- `customer_segments_plot.png` – Cluster visualization
-
+  
 ---
 
 ## 🔧 Tools Used
@@ -72,3 +74,10 @@ This project applies machine learning clustering techniques to group customers b
 
 KMeans works well for cleanly separable clusters. DBSCAN identifies noise and non-convex clusters but is sensitive to parameters.
 
+
+## Clustering Comparison Summary
+
+| Method      | No. of Clusters | Noise Points | Silhouette Score          | Suitable For                                    |
+| ----------- | --------------- | ------------ | ------------------------- | ----------------------------------------------- |
+| **K-Means** | 6               | 0            | ~0.42+                    | Balanced, general datasets                      |
+| **DBSCAN**  | 3 (w/ noise)    | 1            | ~0.279 (excluding noise)  | Irregular or non-spherical clusters, noisy data |
