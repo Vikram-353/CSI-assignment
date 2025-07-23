@@ -36,7 +36,7 @@ This project applies machine learning clustering techniques to group customers b
 
 ### KMeans
 
-- Chosen via Elbow Method (optimal k = 6)
+- Chosen via Silhouette Score (optimal k = 6)
 - Balanced customer segments
 - **Silhouette Score:** `0.4284` (varies)
 
